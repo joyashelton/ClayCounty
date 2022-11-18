@@ -5,11 +5,12 @@
 
 <body style="background-color: lightgrey;">
   <div>
-    <form action="NameCCLR.php" method="get">
-      Search for records given a last name.<br>
-      Last Name: <input type="text" name="name" required><br>
-      <input type="submit">
-
+    
+    form autocomplete="off" action="NameCCLR.php" method="get">
+            <div class="autocomplete" style="width:300px">
+                <input id="myInput" type="text" name="search" placeholder="Name">
+            </div>
+            <input type="submit" value="Search">
     </form>
   </div>
   <div style="margin-top:50px ;">
