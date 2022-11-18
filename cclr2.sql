@@ -1,0 +1,226 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Oct 12, 2022 at 03:46 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `cclr`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cclr2`
+--
+
+CREATE TABLE `cclr2` (
+  `DATE` varchar(10) DEFAULT NULL,
+  `TYPE` varchar(20) DEFAULT NULL,
+  `BK` int(2) DEFAULT NULL,
+  `PAGE` int(3) DEFAULT NULL,
+  `LastNameGrantor_1` varchar(35) DEFAULT NULL,
+  `FirstNameGrantor_1` varchar(19) DEFAULT NULL,
+  `LastNameGrantor_2` varchar(12) DEFAULT NULL,
+  `FirstNameGrantor_2` varchar(18) DEFAULT NULL,
+  `LastNameGrantor_3` varchar(12) DEFAULT NULL,
+  `FirstNameGrantor_3` varchar(17) DEFAULT NULL,
+  `LastNameGrantee_1` varchar(30) DEFAULT NULL,
+  `FirstNameGrantee_1` varchar(13) DEFAULT NULL,
+  `LastNameGrantee_2` varchar(8) DEFAULT NULL,
+  `FirstNameGrantee_2` varchar(16) DEFAULT NULL,
+  `QTR` varchar(11) DEFAULT NULL,
+  `SEC` varchar(2) DEFAULT NULL,
+  `TSP` varchar(2) DEFAULT NULL,
+  `RGE` varchar(1) DEFAULT NULL,
+  `INFO` varchar(24) DEFAULT NULL,
+  `LOT` varchar(14) DEFAULT NULL,
+  `BLK` varchar(2) DEFAULT NULL,
+  `ADDITION` varchar(29) DEFAULT NULL,
+  `CITY` varchar(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `cclr2`
+--
+
+INSERT INTO `cclr2` (`DATE`, `TYPE`, `BK`, `PAGE`, `LastNameGrantor_1`, `FirstNameGrantor_1`, `LastNameGrantor_2`, `FirstNameGrantor_2`, `LastNameGrantor_3`, `FirstNameGrantor_3`, `LastNameGrantee_1`, `FirstNameGrantee_1`, `LastNameGrantee_2`, `FirstNameGrantee_2`, `QTR`, `SEC`, `TSP`, `RGE`, `INFO`, `LOT`, `BLK`, `ADDITION`, `CITY`) VALUES
+('#N/A', 'Sheriff\'s Deed', 38, 1, 'INVESTMENT BANKING CO', '', '', '', '', '', 'CORNELL UNIVERSITY', '', '', '', 'SW', '13', '10', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 1, 'INVESTMENT BANKING CO', '', '', '', '', '', 'CORNELL UNIVERSITY', '', '', '', 'N2 SE', '13', '10', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 1, 'INVESTMENT BANKING CO', '', '', '', '', '', 'CORNELL UNIVERSITY', '', '', '', 'NW', '24', '10', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 2, 'KEENER', 'S E & MAMIE', 'KEENER', 'J M & ADDIE', 'KIETH', 'W A & PAULINE', 'KINGSLEY', 'LEVI G', '', '', '', '', '', '', '', '13', '48', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 3, 'SHERBERT', 'GEORGE F', 'SHERBERT', 'ELLEN L', '', '', 'BRADBURY', 'W S', '', '', 'SW', '5', '9', '4', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 4, 'MILLER', 'CHARLES T', 'MILLER', 'LISSIE A', '', '', 'GRIGGS', 'JULIA A', '', '', 'SW', '21', '7', '4', 'EX RR ROW', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 5, 'BROWN', 'LAURA R', '', '', '', '', 'HAYMOND', 'NANCY J', '', '', 'E2 NW', '36', '10', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 6, 'MILLER', 'LAMIRA J', 'MILLER', 'JAMES W', '', '', 'SAFE DEPOSIT & TRUST CO', '', '', '', '', '', '', '', '', '5,6,7,8', '', 'Miller Subdivision', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 7, 'HANNEY', 'WILLIAM', 'HANNEY', 'HANNAH', '', '', 'PHOENIX LOAN & BUILDING ASSO', '', '', '', '', '', '', '', '', '16 thru 22', '', 'Morgan & Hanney Subdivision', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 8, 'MERTEN', 'B F', 'MERTEN', 'VIRGINIA', '', '', 'PHOENIX LOAN & BUILDING ASSO', '', '', '', '', '', '', '', '', '1 thru 5', '4', 'Merten', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 8, 'MERTEN', 'B F', 'MERTEN', 'VIRGINIA', '', '', 'PHOENIX LOAN & BUILDING ASSO', '', '', '', '', '', '', '', '', '1 thru 5', '5', 'Merten', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 9, 'WILDER', 'MATTHEW E', '', '', '', '', 'BRITISH LAND & MTG CO', '', '', '', 'NE', '19', '8', '4', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 10, 'WYLIE', 'OLIVER M', 'WYLIE', 'MARY I', '', '', 'CATLIN', 'LEVI', '', '', 'W2 SW', '18', '8', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 11, 'BACKUS', 'JESSE A', '', '', '', '', 'HOWARD', 'W W', '', '', '', '', '', '', '', '2', '2', 'Baird\'s 1st Berlin', 'Industry'),
+('#N/A', 'Sheriff\'s Deed', 38, 12, 'FLEMING', 'ROBERT', 'FLEMING', 'MARY', '', '', 'DICKIE', 'JANE', '', '', 'NW NE', '28', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 12, 'FLEMING', 'ROBERT', 'FLEMING', 'MARY', '', '', 'DICKIE', 'JANE', '', '', 'NE NW', '28', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 12, 'FLEMING', 'ROBERT', 'FLEMING', 'MARY', '', '', 'DICKIE', 'JANE', '', '', 'W2 NW', '28', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 13, 'GRUBS', 'JOB O', 'GRUBS', 'OLA', 'GRUBS', 'MEREDITH D', 'DARLINGTON', 'SMEDLEY', '', '', '', '', '', '', '', '4 & 5', '9', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 14, 'HAM', 'JAMES W & SARAH E', 'LAWDERSMITH', 'J WESLEY & DORA E', 'ETAL', '', 'JENNINGS', 'LESLIE W', '', '', 'SE', '10', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 15, 'HAMMOND', 'JOSEPH K', 'HAMMOND', 'SARAH M', '', '', 'AGRICULTURAL LAND CO', '', '', '', 'SE', '10', '10', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 16, 'HOOVER', 'MARGARET A M', '', '', '', '', 'BELKNAP SAVINGS BANK', '', '', '', '', '', '', '', '', '17', '32', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 17, 'ROSE', 'JOHN W', 'ROSE', 'ELIZABETH', '', '', 'BOARDMAN', 'WILLIAM F J', '', '', '', '17', '10', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 18, 'ELLIS', 'EMMA SCHULDT', 'ELLIS', 'JAMES D', '', '', 'SWENSON', 'ERIC H', '', '', '', '', '', '', '', '', '73', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 19, 'RYERSON', 'JOHN F', 'RYERSON', 'ABBIE', '', '', 'TOPEKA SAFE DEPOSIT & TRUST CO', '', '', '', 'SW', '4', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 20, 'SCHULDT', 'CHRISTIAN', 'SCHULDT', 'MARY A', '', '', 'CONNECTICUT MUTUAL LIFE INS CO', '', '', '', 'SW', '17', '9', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 21, 'TRUDELL', 'MAY', '', '', '', '', 'TRUDELL', 'ELI', 'TRUDELL', 'ADA B', 'SW', '30', '8', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 22, 'TRUDELL', 'ELI', 'TRUDELL', 'ADA B', '', '', 'BARTLETT LAND CO', '', '', '', 'SW', '30', '8', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 23, 'EDMONDS', 'OLIVER', 'EDMONDS', 'CAROLINE S', '', '', 'BARTLETT LAND CO', '', '', '', 'SW NE', '3', '6', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 23, 'EDMONDS', 'OLIVER', 'EDMONDS', 'CAROLINE S', '', '', 'BARTLETT LAND CO', '', '', '', 'NW SE', '3', '6', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 24, 'KNAPP', 'HORACE H', 'ETAL', '', '', '', 'KNAPP', 'FRANK', '', '', 'SE NW', '18', '6', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 24, 'KNAPP', 'HORACE H', 'ETAL', '', '', '', 'KNAPP', 'FRANK', '', '', 'SW NE', '18', '6', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 24, 'KNAPP', 'HORACE H', 'ETAL', '', '', '', 'KNAPP', 'FRANK', '', '', 'N3 SW', '18', '6', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 24, 'KNAPP', 'HORACE H', 'ETAL', '', '', '', 'KNAPP', 'FRANK', '', '', 'NW SE', '18', '6', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 25, 'WILCOX', 'JEROME', 'WILCOX', 'HANNA', '', '', 'BEAN', 'N S', '', '', '', '', '', '', '', '18,19,20', '2', 'Huntress', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 26, 'STARR', 'ISABELLE', 'STARR', 'VINE FRANKLIN', '', '', 'PARKS', 'CLARENCE A', '', '', 'NE', '17', '8', '3', 'TRACT IN', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 27, 'GILBERT', 'DAVID', 'GILBERT', 'JANE', 'GILBERT', 'DANIEL', 'FINANCIAL ASSOCIATION', '', '', '', '', '', '', '', '', '6', '69', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 28, 'READ', 'MARGARET', 'READ', 'Wm (Dec\'d)', '', '', 'HAWKES', 'T J', '', '', '', '', '', '', '', '18,19,20', '22', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 29, 'FOX', 'JOSEPH H', 'FOX', 'MARY E', 'SMITH', 'FRANKLIN & SARAH', 'HIGLEY', 'A J', '', '', 'N2 NW', '16', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 30, 'DAWSON', 'MARY A', '', '', '', '', 'WOOD', 'C D', 'WOOD', 'JULIA B', '', '', '', '', '', '18 & E2 17', '8', 'Lincoln Park', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 31, 'LONG', 'T T', 'LONG', 'MATILDA', '', '', 'ATWOOD', 'P B', '', '', '', '', '', '', '', '13', '13', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 32, 'GEAR', 'JOHN W', 'GEAR', 'AGNES', '', '', 'ATWOOD', 'EMMA C', 'HARRISON', 'CARRIE C', '', '', '', '', '', '1 & 2', '69', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 33, 'FREEMAN', 'A L', 'FREEMAN', 'MARY L', '', '', 'FREEMAN', 'MARY L', '', '', '', '', '', '', 'TRACT IN', '11 & 12', '43', 'Original Townsite', 'Clay Center'),
+('11/16/1900', 'Sheriff\'s Deed', 38, 34, 'JOHNSON', 'CHARLES', 'JOHNSON', 'ANNA', '', '', 'PITMAN', 'J W', '', '', '', '', '', '', 'N RR ROW', '13', '24', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 35, 'MARVIN', 'EZRA B', 'MARVIN', 'SUSAN', '', '', 'ANTHONY', 'C M', '', '', '', '', '', '', 'TRACT IN', '8', '1', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 36, 'McDONALD', 'LEWIS A & MARY F', 'SHOCKLEY J G', 'HOFFMAN', 'JOHN B & A C', '', 'FINANCIAL ASSOCIATION', '', '', '', '', '', '', '', '', '13,14,15,16', '66', 'Original Townsite', 'Clay Center'),
+('11/11/1900', 'Sheriff\'s Deed', 38, 37, 'ANTHONY', 'C M', '', '', '', '', 'GREEP', 'DAVID', '', '', '', '', '', '', '', '1,2,3, E15ft 4', '1', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 38, 'CRONK', 'ELIZABETH', '', '', '', '', 'ANTHONY', 'C M', '', '', '', '', '', '', '', '9 & 10', '1', 'Eberly 1st', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 39, 'TRIPP', 'ASA W', 'TRIPP', 'ANNA', '', '', 'HOLTON', 'A E', '', '', 'NE NW NW NE', '30', '10', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 127, 'DEXTER', 'ALONZO', '', '', '', '', 'CHASE', 'SAMUEL', '', '', '', '', '', '', '', '7,8,9,10', '52', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 128, 'DUNGAN', 'JONAH P', 'DUNGAN', 'EUPHEMIA M', '', '', 'GODDARD', 'J H', '', '', 'NE', '16', '8', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 129, 'BLANC', 'LOUIS', 'BLANC', 'ELIZA', '', '', 'DARMOUTH SAVINGS BANK', '', '', '', 'W2', '30', '7', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 130, 'STARKWEATHER', 'JOHN L', '', '', '', '', 'INVESTMENT TRUST CO', '', '', '', '', '', '', '', 'N RR ROW', '13,14,15,16,17', '39', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 131, 'ROSS', 'JOHN A & LIZZIE M', 'WILLIAMS', 'E G', 'ETAL', '', 'INVESTMENT TRUST CO', '', '', '', 'W2 NW', '27', '8', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 132, 'CARSON', 'BENJAMIN', 'CARSON', 'MARY A', '', '', 'BABB', 'DAVID', '', '', 'NE', '36', '7', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 133, 'SMITH', 'FREDERICK A', 'SMITH', 'MARY C', '', '', 'CUSHING', 'FLORENCE M', '', '', 'W2', '14', '9', '2', '', '', '', '', ''),
+('3/5/1900', 'Sheriff\'s Deed', 38, 134, 'VAN ATTA', 'SARAH', 'VAN ATTA', 'GEORGE A', '', '', 'WILTON SAVINGS BANK', '', '', '', '', '', '', '', '', '16', '9', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 135, 'JACOBSON', 'JACOB E', 'JACOBSON', 'SELMA L', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 136, 'PARSONS', 'CHARLES', 'PARSONS', 'CHARLOTTE', '', '', 'NATIONAL LOAN & TRUST CO', '', '', '', '', '', '', '', '', '15 & 16', '31', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 229, 'MILLER', 'HARRY W', 'MILLER', 'ELIZABETH', '', '', 'CLAY LODGE #115 ODD FELLOWS', '', '', '', '', '', '', '', '', '17', '13', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 232, 'PATNAUDE', 'STEPHEN', 'PATNAUDE', 'EULALIE', '', '', 'BANK OF CLIFTON', '', '', '', 'S2 SW', '5', '7', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 232, 'PATNAUDE', 'STEPHEN', 'PATNAUDE', 'EULALIE', '', '', 'BANK OF CLIFTON', '', '', '', 'N2 SE', '6', '7', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 234, 'COOK', 'THOMAS', 'COOK', 'FRANCIS', '', '', 'FINANCIAL ASSOCIATION', '', '', '', '', '', '', '', '', 'W2 4', '42', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 236, 'COLTON', 'ESTHER A', 'COLTON', 'GARRY V', '', '', 'CATLIN', 'LEVI', '', '', 'NE', '24', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 239, 'GLASS', 'WILLIAM S', 'GLASS', 'SADE M', 'CLARK', 'JAMES & ELIZABETH', 'WARREN', 'MARY E', '', '', 'S2 SW', '26', '10', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 239, 'GLASS', 'WILLIAM S', 'GLASS', 'SADE M', '', '', 'WARREN', 'MARY E', '', '', 'SE', '27', '10', '3', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 242, 'GRUBS', 'JESSE M', 'GRUBS', 'MARY E', 'MILLER', 'HARRY W', 'GRUBS', 'JESSE M', '', '', '', '', '', '', '', '3,4,5, E2 6', '12', 'Lincoln Park', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 245, 'HANNA', 'DAVID J', 'WILSON', 'P R', '', '', 'ST JOSEPH LOAN & TRUST CO', '', '', '', 'NE', '31', '9', '1', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 248, 'KEENER', 'S E', 'KEENER', 'J M', '', '', 'JOHNSON', 'JOHN', '', '', 'N2 NE', '16', '10', '2', '', '', '', '', ''),
+('#N/A', 'Sheriff\'s Deed', 38, 250, 'HUNTRESS', 'CHARLES O', 'HUNTRESS', 'EMMA J', '', '', 'ANTHONY', 'C M', '', '', '', '', '', '', '', '1,2,3,4', '14', 'Lincoln Park', 'Clay Center'),
+('#N/A', 'Sheriff\'s Deed', 38, 253, 'AVERY', 'CELESTIA L', 'AVERY', 'HENRI E', '', '', 'AVERY', 'HENRI E', '', '', '', '', '', '', '', '17 & 18', '9', 'Huntress', 'Clay Center'),
+('7/6/1901', 'Sheriff\'s Deed', 38, 255, 'SMITH', 'LAURA', 'ETAL', '', '', '', 'THOMAS', 'ANN M', '', '', 'SW', '5', '8', '3', 'TRACT IN', '', '', '', ''),
+('4/12/1901', 'Sheriff\'s Deed', 38, 259, 'FUNNELL', 'HENRY', 'FUNNELL', 'CHRISTOPHER C', 'ETAL', '', 'BANNER', 'C R', '', '', '', '', '', '', '', '1 & 2', '1', 'Central Clifton', 'Clifton'),
+('4/12/1901', 'Sheriff\'s Deed', 38, 259, 'FUNNELL', 'HENRY', 'FUNNELL', 'CHRISTOPHER C', '', '', 'BANNER', 'C R', '', '', '', '', '', '', '', '16 & 17', '2', 'South Central Clifton', 'Clifton'),
+('4/12/1901', 'Sheriff\'s Deed', 38, 259, 'FUNNELL', 'HENRY', 'FUNNELL', 'CHRISTOPHER C', '', '', 'BANNER', 'C R', '', '', '', '', '', '', '', '10', '3', 'South Central Clifton', 'Clifton'),
+('4/12/1901', 'Sheriff\'s Deed', 38, 259, 'FUNNELL', 'HENRY', 'FUNNELL', 'CHRISTOPHER C', '', '', 'BANNER', 'C R', '', '', 'SE NW', '2', '6', '1', 'TRACT IN', '', '', '', ''),
+('5/5/1906', 'Quit Claim Deed', 38, 263, 'HOUSE', 'JENNIE McKENZIE', 'HOUSE', 'ROBERT A', '', '', 'McMAHON', 'NELLIE', '', '', 'SW', '5', '6', '3', '', '', '', '', ''),
+('9/11/1901', 'Sheriff\'s Deed', 38, 265, 'ANTHONY', 'C M', '', '', '', '', 'ATWOOD', 'EMMA C', 'HARVISON', 'CARRIE C', '', '', '', '', '', '1,2,3,4', '78', 'Original Townsite', 'Clay Center'),
+('9/11/1901', 'Sheriff\'s Deed', 38, 265, 'ANTHONY', 'C M', '', '', '', '', 'ATWOOD', 'EMMA C', 'HARVISON', 'CARRIE C', 'NW', '7', '8', '3', 'TRACT IN', '', '', '', ''),
+('2/1/1902', 'Sheriff\'s Deed', 38, 269, 'VLASACK', 'ANTON', 'VLASACK', 'CECILIE', '', '', 'FLOWER', 'GEO H', '', '', 'S2 SW', '26', '10', '3', '', '', '', '', ''),
+('2/1/1902', 'Sheriff\'s Deed', 38, 269, 'VLASACK', 'ANTON', 'VLASACK', 'CECILIE', '', '', 'FLOWER', 'GEO H', '', '', 'SE', '27', '10', '3', '', '', '', '', ''),
+('6/27/1903', 'Sheriff\'s Deed', 38, 273, 'CRAWFORD', 'A N', 'HULBERT', 'ELIZA A (Dec\'d)', '', '', 'TURNER', 'MINNIE J', '', '', 'NE', '33', '6', '2', '', '', '', '', ''),
+('6/27/1903', 'Sheriff\'s Deed', 38, 279, 'CRAWFORD', 'A N', 'HULBERT', 'ELIZA A (Dec\'d)', '', '', 'SHIRLEY', 'EVA M', '', '', 'NE', '33', '6', '2', '', '', '', '', ''),
+('6/27/1903', 'Sheriff\'s Deed', 38, 285, 'CRAWFORD', 'A N', 'HULBERT', 'ELIZA A (Dec\'d)', '', '', 'MYGATT', 'JAMES FRANK', '', '', 'SW NE', '33', '6', '2', '', '', '', '', ''),
+('6/27/1903', 'Sheriff\'s Deed', 38, 291, 'CRAWFORD', 'A N', 'HULBERT', 'ELIZA A (Dec\'d)', '', '', 'GOING', 'SUSAN C', '', '', 'SE NE', '33', '6', '2', '', '', '', '', ''),
+('12/19/1903', 'Sheriff\'s Deed', 38, 297, 'BURT', 'MARY S L', '', '', '', '', 'HASTINGS', 'GEORGIA C', '', '', '', '', '', '', '', '1,2,3', '26', 'Originial Townsite', 'Wakefield'),
+('8/18/1905', 'Warranty Deed', 38, 301, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'GASSWINT', 'SAMUEL R', '', '', 'NW', '21', '10', '1', 'TRACT IN', '', '', '', ''),
+('3/1/1906', 'Warranty Deed', 38, 303, 'BORLAND', 'W & M (Dec\'d)', 'ETAL', '', '', '', 'BORLAND', 'THOMAS G', '', '', 'W2 SE', '1', '9', '2', '', '', '', '', ''),
+('3/1/1906', 'Warranty Deed', 38, 303, 'BORLAND', 'W & M (Dec\'d)', '', '', '', '', 'BORLAND', 'THOMAS G', '', '', 'SW NE', '1', '9', '2', '', '', '', '', ''),
+('3/1/1906', 'Warranty Deed', 38, 306, 'BORLAND', 'W & M (Dec\'d)', '', '', '', '', 'BORLAND', 'PAUL M', '', '', 'SE', '4', '9', '2', '', '', '', '', ''),
+('4/7/1906', 'Cemetery Certificate', 38, 309, 'WAKEFIELD CITY', '', '', '', '', '', 'BRYANT', 'W T', '', '', '', '', '', '', '', '18', '2', 'Cemetery Highland', 'Wakefield'),
+('6/20/1904', 'Quit Claim Deed', 38, 310, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHARINE', '', '', 'DANIELSON', 'ARTHUR L', 'ETAL', '', 'SW', '18', '7', '3', '', '', '', '', ''),
+('4/11/1906', 'Cemetery Certificate', 38, 311, 'CLAY CENTER CITY', '', '', '', '', '', 'HAGAN', 'W L D MRS', '', '', '', '', '', '', '', '11', '10', 'Cemetery Greenwood', 'Clay Center'),
+('4/11/1906', 'Warranty Deed', 38, 312, 'DENMAN', 'RHODA H', 'DENMAN', 'T S', '', '', 'HARRIS', 'ANNA E', '', '', '', '', '', '', '', '19 & 20', '5', 'Central Clifton', 'Clifton'),
+('3/10/1905', 'Warranty Deed', 38, 314, 'CARR', 'MARGARET E', 'ETAL', '', '', '', 'ALSOP', 'ELIZABETH', '', '', 'S2 SE', '24', '9', '3', '', '', '', '', ''),
+('4/17/1906', 'Executor\'s Deed', 38, 317, 'DURRIN', 'GEORGE (Dec\'d)', 'ETAL', '', '', '', 'BRUST', 'JACOB', '', '', 'S2 NE', '32', '10', '3', '', '', '', '', ''),
+('4/9/1906', 'Warranty Deed', 38, 320, 'FARMLAND MTG & DEBENTURE CO', '', '', '', '', '', 'SWENSON', 'ERIC H', '', '', 'SE', '20', '7', '2', '', '6,9', '', '', ''),
+('2/19/1906', 'Administrative Deed', 38, 322, 'HOFMANN', 'DAVID (Dec\'d)', 'ETAL', '', '', '', 'HOFMANN', 'GOTTLIEB', '', '', 'SE', '32', '7', '4', '', '', '', '', ''),
+('2/24/1906', 'Quit Claim Deed', 38, 324, 'ENGELHARDT', 'CHRISTINA & DAVID', 'KLEIN', 'BARBARA & MICHAEL', 'ETAL', '', 'HOFMANN', 'GOTTLIEB', '', '', 'SE', '32', '7', '4', '', '', '', '', ''),
+('4/1/1905', 'Deed', 38, 327, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'HAMMOND', 'R L', '', '', '', '', '', '', '', '6 & 7', '11', 'Original Townsite', 'Longford'),
+('4/6/1906', 'Cemetery Certificate', 38, 329, 'CLAY CENTER CITY', '', '', '', '', '', 'O\'DELL', 'SAMUEL O', '', '', '', '', '', '', '', '13', '13', 'Cemetery Greenwood', 'Clay Center'),
+('12/12/1904', 'Warranty Deed', 38, 330, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'WILSON', 'LIZZIE A', '', '', 'NW', '21', '10', '1', 'TRACT IN', '14', '9', 'Original Townsite', 'Longford'),
+('3/7/1905', 'Warranty Deed', 38, 332, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'WILSON', 'LIZZIE A', '', '', 'NW', '21', '10', '1', 'TRACT IN', '9,10,11,12', '9', 'Original Townsite', 'Longford'),
+('2/10/1906', 'Guardian Deed', 38, 334, 'STANDAU', 'FREDERICK W (Dec\'d)', 'STANDAU', 'KATE H (Guardian)', '', '', 'STANDAU', 'NANCY', '', '', '', '', '', '', 'TRACT IN', '', '1', 'Ellis to Oak Hill', 'Oak Hill'),
+('4/7/1900', 'Contract', 38, 337, 'SCHAUBEL', 'ELIZA', 'SCHAUBEL', 'HENRY', '', '', 'CLAY CENTER CITY', '', '', '', '', '', '', '', 'TRACT IN', '', '', 'Highland Park', 'Clay Center'),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '7', '8', '3', 'INT IN', '8,10,11', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '7', '8', '3', 'TRACT IN & INT IN', '4,5,6,7', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '', '', '', 'INT IN', '9 thru 13', '61', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '', '', '', 'INT IN', '4 thru 8', '62', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '', '', '', 'INT IN', '1 thru 10', '72', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '', '', '', 'INT IN', '6,7,8', '70', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '', '', '', 'INT IN', '16 thru 20', '65', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '', '', '', 'INT IN', '9 thru 14', '62', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 340, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'FRED L', '', '', '', '', '', '', 'INT IN Dexter Mill Block', '', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '7', '8', '3', 'INT IN', '8,10,11', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '7', '8', '3', 'TRACT IN & INT IN', '4,5,6,7', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '', '', '', 'INT IN', '9 thru 13', '61', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '', '', '', 'INT IN', '4 thru 8', '62', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '', '', '', 'INT IN', '1 thru 10', '72', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '', '', '', 'INT IN', '6,7,8', '70', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '', '', '', 'INT IN', '16 thru 20', '65', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '', '', '', 'INT IN', '9 thru 14', '62', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 346, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'AMANDA C', '', '', '', '', '', '', 'INT IN Dexter Mill Block', '', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '7', '8', '3', 'INT IN', '8,10,11', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '7', '8', '3', 'TRACT IN & INT IN', '4,5,6,7', '', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '', '', '', 'INT IN', '9 thru 13', '61', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '', '', '', 'INT IN', '4 thru 8', '62', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '', '', '', 'INT IN', '1 thru 10', '72', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '', '', '', 'INT IN', '6,7,8', '70', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '', '', '', 'INT IN', '16 thru 20', '65', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '', '', '', 'INT IN', '9 thru 14', '62', '', ''),
+('6/20/1904', 'Warranty Deed', 38, 351, 'WILLIAMSON', 'WILLIAM', 'WILLIAMSON', 'KATHERINE', '', '', 'WILLIAMSON', 'ALVIN L', '', '', '', '', '', '', 'INT IN Dexter Mill Block', '', '', '', ''),
+('5/17/1906', 'Guardian\'s Deed', 38, 357, 'TRICKLE', 'FRED', 'FRICKLE', 'WILLIE', 'TRICKLE', 'CECELIA (Dec\'d)', 'TRICKLE', 'LEE', '', '', 'N2 NW', '16', '10', '1', 'INT IN', '', '', '', ''),
+('4/6/1906', 'Agreement', 38, 359, 'WRIGHT', 'I J', 'WRIGHT', 'LONA', '', '', 'GINGLES', 'EMMA F', 'GINGLES', 'WILLIAM H', 'NE', '17', '6', '2', 'TRACT IN', '', '', '', ''),
+('5/2/1906', 'Warranty Deed', 38, 361, 'BUNDY', 'AMANDA (Dec\'d)', 'BUNDY', 'JOSEPH', 'ETAL', '', 'VINZANT', 'JOSEPH', '', '', '', '', '', '', '', '6 & 7', '3', 'Meek 1st', 'Idana'),
+('6/5/1906', 'Cemetery Certificate', 38, 364, 'REED', 'WILLIAM R', 'REED', 'SARAH G', '', '', 'SPICER', 'JOHN D', '', '', '', '', '', '', 'TRACT IN', '14', '12', 'Cemetery Greenwood', 'Clay Center'),
+('5/28/1906', 'Agreement', 38, 365, 'PAULSON', 'PAUL R', '', '', '', '', 'JAMES', 'RICHARD', '', '', 'NW', '29', '9', '2', '', '', '', '', ''),
+('5/7/1906', 'Trustee\'s Deed', 38, 368, 'CRAWFORD', 'J K (Trustee)', 'PATTERSON', 'MOSES G', 'PATTERSON', 'NETTIE E', 'MYERS', 'D H', '', '', '', '', '', '', 'EX RR ROW', '11 thru 17', '39', 'Original Townsite', 'Clay Center'),
+('5/7/1906', 'Trustee\'s Deed', 38, 368, 'CRAWFORD', 'J K (Trustee)', 'PATTERSON', 'MOSES G', 'PATTERSON', 'NETTIE E', 'MYERS', 'D H', '', '', '', '', '', '', '', '1 thru 7', '77', 'Original Townsite', 'Clay Center'),
+('5/7/1906', 'Trustee\'s Deed', 38, 368, 'CRAWFORD', 'J K (Trustee)', 'PATTERSON', 'MOSES G', 'PATTERSON', 'NETTIE E', 'MYERS', 'D H', '', '', '', '7', '8', '3', 'TRACT IN', '5', '', '', ''),
+('5/16/1906', 'Warranty Deed', 38, 371, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'WOLF', 'W H H', '', '', '', '', '', '', '', '15 & 16', '7', 'Original Townsite', 'Longford'),
+('10/28/1903', 'Warranty Deed', 38, 373, 'CHURCH EVANGELICAL LUTHERAN ST PAUL', '', '', '', '', '', 'TINKER', 'ADELAIDE', '', '', '', '', '', '', '', '11', '47', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Affidavit', 38, 375, 'STONEBACK', 'JOHN', 'STONEBACK', 'SYLVESTER', '', '', 'YOUNG', 'PETER', '', '', '', '', '', '', '', '6 & W 6ft 5', '5', 'Originial Townsite Silver', 'Morganville'),
+('#N/A', 'Affidavit', 38, 376, 'STONEBACK', 'JOHN & SARAH', 'STONEBACK', 'SYLVESTER & LIZZIE', '', '', 'YOUNG', 'PETER', '', '', '', '', '', '', '', '6 & W 6ft 5', '5', 'Originial Townsite Silver', 'Morganville'),
+('6/11/1906', 'Lease', 38, 378, 'SEXTON', 'THOMAS', '', '', '', '', 'SHARPE', 'WILLIAM', '', '', '', '', '', '', 'S2', '20', '38', 'Original Townsite', 'Clay Center'),
+('#N/A', 'Affidavit', 38, 380, 'SANDERS', 'JOHN F', '', '', '', '', 'STAIGHT', 'EDWARD F', 'STAIGHT', 'CAROLINE (Dec\'d)', 'S2 SE', '31', '10', '2', '', '', '', '', ''),
+('5/15/1906', 'Cemetery Certificate', 38, 381, 'CLAY CENTER CITY', '', '', '', '', '', 'ADEE', 'LYDIA R', '', '', '', '', '', '', '', '11', '16', 'Cemetery Greenwood', 'Clay Center'),
+('4/27/1901', 'Warranty Deed', 38, 382, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'SMITH', 'SARAH', '', '', 'NW', '21', '10', '1', 'TRACT IN', '', '', '', ''),
+('4/20/1905', 'Warranty Deed', 38, 384, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'HIBLER', 'H J', '', '', '', '', '', '', '', '4,5,6', '16', 'Original Townsite', 'Longford'),
+('4/16/1906', 'Warranty Deed', 38, 385, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'HAMILTON', 'CHARLES', '', '', '', '', '', '', '', '4', '10', 'Original Townsite', 'Longford'),
+('4/16/1906', 'Warranty Deed', 38, 387, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'WOLFE', 'W J', '', '', '', '', '', '', '', '5', '10', 'Original Townsite', 'Longford'),
+('12/1/1905', 'Warranty Deed', 38, 389, 'BATCHELOR', 'P F', 'BATCHELOR', 'AGNES', '', '', 'WALTER', 'PERCY R', '', '', 'SE', '5', '10', '4', 'TRACT IN & EX RR ROW', '', '', '', ''),
+('4/16/1906', 'Warranty Deed', 38, 392, 'ARKANSAS VALLEY TOWN & LAND CO', '', '', '', '', '', 'BORINGER', 'A B', '', '', '', '', '', '', '', '9,10,11,12', '7', 'Original Townsite', 'Longford'),
+('7/25/1906', 'Contract', 38, 394, 'CHRISTIE', 'MELVIN M', '', '', '', '', 'SWENSON', 'ERIC H', '', '', 'S2', '20', '9', '1', 'EX TRACT', '', '', '', ''),
+('7/2/1906', 'Agreement', 38, 397, 'SIMERSON', 'SIMON', '', '', '', '', 'ROACH', 'ROY V', 'ROACH', 'ESTELLA A', 'E2', '28', '8', '2', '', '', '', '', ''),
+('7/13/1905', 'Warranty Deed', 38, 398, 'EVANS', 'ELIZABETH B', '', '', '', '', 'JACKSON', 'ELLA', '', '', '', '', '', '', '', '7', '35', 'Original Townsite Morgan City', 'Morganville'),
+('7/17/1906', 'Quit Claim Deed', 38, 399, 'HOSMER', 'PTOLEMY E (Dec\'d)', 'HOSMER', 'HENRY H', '', '', 'CAMPBELL', 'ELLEN L', '', '', '', '', '', '', 'N2', '1,2,3', '13', 'Original Townsite', 'Clay Center'),
+('8/6/19//06', 'Sheriff\'s Deed', 38, 400, 'WALKER', 'EDGAR', 'RIGSBY', 'SADY', 'WALKER', 'EARL', 'DOBKINS', 'MINNIE DORCAS', '', '', '', '', '', '', '', '9 & 10', '76', 'Original Townsite', 'Clay Center'),
+('2/27/1906', 'Warranty Deed', 38, 404, 'CHRISTIE', 'M M', '', '', '', '', 'VINZANT', 'JOHN L', '', '', 'NE', '20', '9', '1', '', '', '', '', ''),
+('#N/A', 'Affidavit', 38, 406, 'BRANAN', 'PATRICK', '', '', '', '', 'SILVER', 'WILLIAM', '', '', 'SW', '10', '8', '3', '', '', '', '', ''),
+('7/26/1906', 'Warranty Deed', 38, 407, 'HULIN', 'AARON J', 'HULIN', 'SUSIE', '', '', 'HARNER', 'ROMEO C', '', '', '', '', '', '', 'TRACT IN', '', '1', 'Hulin 1st', 'Green'),
+('8/27/1906', 'Cemetery Certificate', 38, 409, 'CLAY CENTER CITY', '', '', '', '', '', 'BRENNER', 'AUGUST', '', '', '', '', '', '', '', '29', '16', 'Cemetery Greenwood', 'Clay Center');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
