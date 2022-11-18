@@ -1,0 +1,37 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background-color: lightgrey;">
+  <div>
+    <form action="NameCCLR.php" method="get">
+      Search for records given a last name.<br>
+      Last Name: <input type="text" name="name" required><br>
+      <input type="submit">
+
+    </form>
+  </div>
+  <div style="margin-top:50px ;">
+    <form action="PlaceCCLR.php" method="get">
+      Search for records given a location using Section, Township, Range.<br>
+      Section: <input type="text" name="sec" required><br>
+      Township: <input type="text" name="twn" required><br>
+      Range: <input type="text" name="rge" required><br>
+      <input type="submit">
+  </div>
+
+  <!--Share with email-->
+<a class="share-btn email" onclick="javascript:window.location='mailto:?subject=Clay County land records&body=I just searched the Clay County museum land records and came up with this! ' + window.location;">Email</a>
+
+
+
+<!-- Facebook (url) -->
+<a class="share-btn facebook" href="https://www.facebook.com/sharer/sharer.php?u=<URL>">
+  Facebook
+</a>
+
+
+
+</body>
+</html>
