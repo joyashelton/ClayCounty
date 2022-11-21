@@ -4,21 +4,24 @@
 </head>
 
 <body style="background-color: lightgrey;">
-  <div>
-    
-    form autocomplete="off" action="NameCCLR.php" method="get">
-            <div class="autocomplete" style="width:300px">
-                <input id="myInput" type="text" name="search" placeholder="Name">
-            </div>
-            <input type="submit" value="Search">
+
+
+
+    <form autocomplete="off" action="NameCCLR.php" method="get">
+      <div class="autocomplete" style="width:300px">
+      Search for records given a last name.<br>
+      Last Name: <input id="myInput" type="text" name="name" required><br>
+      </div>
+      <input type="submit">
     </form>
-  </div>
-  <div style="margin-top:50px ;">
+
+
+<div style="margin-top:50px ;">
     <form action="PlaceCCLR.php" method="get">
       Search for records given a location using Section, Township, Range.<br>
-      Section: <input type="text" name="sec" required><br>
-      Township: <input type="text" name="twn" required><br>
-      Range: <input type="text" name="rge" required><br>
+      Section: <input type="number" name="sec" required><br>
+      Township: <input type="number" name="twn" required><br>
+      Range: <input type="number" name="rge" required><br>
       <input type="submit">
   </div>
 
@@ -32,7 +35,6 @@
   Facebook
 </a>
 
-
-
+<script src="script.js"></script> 
 </body>
 </html>
